@@ -1,0 +1,13 @@
+#HIDDENDIV {
+    display: none;
+}
+
+#table td {
+    padding: 1em;
+    border: 1px solid black;
+}
+
+
+#table.show tr > *:nth-child(2) {
+    display: block;
+}
